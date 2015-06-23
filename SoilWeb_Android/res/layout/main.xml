@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+
+
+<TableLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TableRow>
+			<Button android:id="@+id/gps"
+					android:layout_width="wrap_content"
+					android:layout_height="35px"
+					android:layout_column="1"
+					android:textStyle="bold"
+					android:textSize="10sp"
+					android:text="Get My Location" />
+			
+			<TextView
+				android:id="@+id/gps_precision"
+				android:layout_width="wrap_content"
+				android:layout_height="35px"
+				android:textSize="10sp"
+				android:padding="5px"
+				android:text="Precision:"/>
+				
+			<SeekBar
+				android:layout_width="110px"
+				android:layout_height="wrap_content"
+				android:id="@+id/gps_precision_seekbar"
+				android:max="30"
+				android:padding="5px"
+				android:progress="5" />
+			<TextView
+				android:id="@+id/gps_precision_feedback"
+				android:layout_width="wrap_content"
+				android:layout_height="35px"
+				android:textSize="10sp"
+				android:gravity="right"
+				android:padding="5px"
+				android:text=""/>
+	</TableRow>
+</TableLayout>
+
+
+		<WebView
+			android:id="@+id/webview"
+			android:gravity="bottom"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			/>
+
+ </LinearLayout>

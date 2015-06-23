@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/exit"
+          android:icon="@drawable/ic_menu_close_clear_cancel"
+          android:title="Exit" />
+    <item android:id="@+id/gps_settings"
+          android:icon="@drawable/ic_menu_compass"
+          android:title="GPS Settings" />
+	<item android:id="@+id/help"
+          android:icon="@drawable/ic_menu_help"
+          android:title="Help" />
+    <item android:id="@+id/demo"
+          android:icon="@drawable/ic_menu_view"
+          android:title="Demo" />
+    <item android:id="@+id/osd"
+          android:icon="@drawable/ic_menu_agenda"
+          android:title="OSD Query" />
+</menu>
